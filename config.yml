@@ -1,4 +1,73 @@
-baseURL: ""
+baseURL: "https://www.clouddruid.com"
 languageCode: en-us
 title: CloudDruid
 theme: PaperMod
+
+enableEmoji: true
+
+menu:
+  main:
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 5
+  - identifier: posts
+    name: Posts
+    url: /posts/
+    weight: 7
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 10
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+  - identifier: archives
+    name: Archives
+    url: /archives/
+    weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+services:
+  disqus:
+    shortname: clouddruid-com
+
+params:
+  author: Chantal Shirley
+
+  homeInfoParams:
+    Title: >
+      Welcome!
+    Content: >
+      CloudDruid is a blog oriented around cloud technologies, infrastructure, Kubernetes, and CI/CD.
+
+  socialIcons:
+  - name: linkedin
+    title: Connect on LinkedIn
+    url: https://www.linkedin.com/in/chantal-shirley-dartmouth14
+  - name: github
+    title: Connect on github
+    url: https://github.com/cShirley14
+  - name: Rss
+    url: "index.xml"
+
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+  comments: true
+
+  assets:
+    favicon: img/favicon.ico
+
+  cover:
+    linkFullImages: true
