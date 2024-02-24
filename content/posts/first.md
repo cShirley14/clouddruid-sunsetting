@@ -6,7 +6,7 @@ cover:
   caption: Breakfast
   image: img/breakfast.gif
 date: "2024-02-24T11:11:50-06:00"
-draft: false
+draft: true
 tags:
 - html
 - css
