@@ -70,4 +70,4 @@ params:
     favicon: img/favicon.ico
 
   cover:
-    linkFullImages: true
+    linkFullImages: false
