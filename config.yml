@@ -41,6 +41,9 @@ services:
 params:
   author: Chantal Shirley
 
+  assets:
+    favicon: "/assets/favicon.ico"
+
   homeInfoParams:
     Title: >
       Welcome!
@@ -66,8 +69,5 @@ params:
 
   comments: true
 
-  assets:
-    favicon: img/favicon.ico
-
   cover:
-    linkFullImages: true
+    linkFullImages: false

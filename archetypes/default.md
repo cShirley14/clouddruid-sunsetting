@@ -1,6 +1,7 @@
 ---
 title: "My 1st post"
 date: 2020-09-15T11:30:03+00:00
+# date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/\([0-9]\{2\}\)\([0-9]\{2\}\)$/\1:\2/'
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
