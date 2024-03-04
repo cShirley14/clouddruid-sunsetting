@@ -42,7 +42,8 @@ params:
   author: Chantal Shirley
 
   assets:
-    favicon: "/assets/favicon.ico"
+    disableHLJS: true
+    favicon: "assets/favicon.ico"
 
   homeInfoParams:
     Title: >
