@@ -43,6 +43,7 @@ params:
 
   assets:
     favicon: "/assets/favicon.ico"
+    apple_touch_ico: "/assets/apple-touch-icon.png"
 
   homeInfoParams:
     Title: >
