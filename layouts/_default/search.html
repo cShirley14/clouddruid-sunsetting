@@ -25,25 +25,22 @@
         aria-label="search" type="search" autocomplete="off" maxlength="64">
     <ul id="searchResults" aria-label="search results"></ul>
 </div> -->
-
+<style>
+  .dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
     new PagefindUI({
       element: "#search",
-      showImages: false
+      showImages: true
       });
   });
-  document.addEventListener('DOMContentLoaded', () => {
-      var element = document.getElementById('search');
-      var trigger = document.getElementById('search_toggle');
-
-      trigger.addEventListener('click', () => {
-          element.classList.toggle('hidden');
-          element.querySelector("input").value=""
-          element.querySelector("input").focus()
-      });
-  });
-
 </script>
 
 <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">

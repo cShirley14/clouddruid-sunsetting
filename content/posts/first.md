@@ -4,7 +4,7 @@ categories:
 cover:
   alt: Gif image of coffee, eggs, and toast
   caption: Breakfast
-  image: img/breakfast.gif
+  image: assets/img/breakfast.gif
 date: "2024-02-24T11:11:50-06:00"
 draft: true
 tags:
