@@ -41,6 +41,9 @@ services:
 params:
   author: Chantal Shirley
 
+  Description: >
+    CloudDruid is a blog oriented around cloud technologies, infrastructure, Kubernetes, and CI/CD.
+
   assets:
     favicon: "/assets/favicon.ico"
     apple_touch_ico: "/assets/apple-touch-icon.png"
