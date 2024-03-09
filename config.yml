@@ -49,9 +49,9 @@ params:
     apple_touch_ico: "/assets/apple-touch-icon.png"
 
   homeInfoParams:
-    Title: >
+    Title: |
       Welcome!
-    Content: >
+    Content: |
       CloudDruid is a blog oriented around cloud technologies, infrastructure, Kubernetes, and CI/CD.
 
   socialIcons:
@@ -63,6 +63,13 @@ params:
     url: https://github.com/cShirley14
   - name: Rss
     url: "index.xml"
+
+assets:
+  favicon: /assets/favicon.ico
+  favicon16x16: /assets/favicon-16x16.png
+  favicon32x32: assets/favicon-32x32.png
+  apple_touch_icon: /assets/apple-touch-icon.png
+  safari_pinned_tab: /assets/safari-pinned-tab.svg
 
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
